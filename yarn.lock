@@ -3924,6 +3924,11 @@ minimatch@9.0.3:
 minimist@^1.2.6:
   version "1.2.8"
 
+mitt@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz"
+  integrity sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
+
 mkdirp@^0.5.1:
   version "0.5.6"
   dependencies:
@@ -4288,7 +4293,7 @@ react-is@^16.13.1:
 react-is@^17.0.1:
   version "17.0.2"
 
-react-native@*, react-native@0.74.1:
+react-native@*, react-native@>=0.40.0, react-native@0.74.1:
   version "0.74.1"
   dependencies:
     "@jest/create-cache-key-function" "^29.6.3"
@@ -4349,6 +4354,26 @@ react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", react@^18.2.0, react@18.2.0:
   version "18.2.0"
   dependencies:
     loose-envify "^1.1.0"
+
+reactotron-core-client@2.9.7:
+  version "2.9.7"
+  resolved "https://registry.npmjs.org/reactotron-core-client/-/reactotron-core-client-2.9.7.tgz"
+  integrity sha512-QWd0ekjU71CQL70J87NT5f7cmIJAMVZND+YgOaaUgmgFjhiXzHrpeIWs19+IFQPVLsJr97gdi58X8Y62Hchs9w==
+  dependencies:
+    reactotron-core-contract "0.2.5"
+
+reactotron-core-contract@0.2.5:
+  version "0.2.5"
+  resolved "https://registry.npmjs.org/reactotron-core-contract/-/reactotron-core-contract-0.2.5.tgz"
+  integrity sha512-pxuXFG1jffAWQSdT0FBws+/Xvl8++6T6WrAi4g7AxIZU5FPeut2wq//0yDhDWx6lF82eAo5JTZK7zECQy45QxA==
+
+reactotron-react-native@^5.1.12:
+  version "5.1.12"
+  resolved "https://registry.npmjs.org/reactotron-react-native/-/reactotron-react-native-5.1.12.tgz"
+  integrity sha512-3MNdoqoOP0xc1e0jjoKWdKonI0ucgPSj36ETDxj9zFMC+CSFLybvABzHz3K5Mr1KbKln/Csh4mEqCq2XPIpqrg==
+  dependencies:
+    mitt "^3.0.1"
+    reactotron-core-client "2.9.7"
 
 readable-stream@^3.4.0:
   version "3.6.2"
