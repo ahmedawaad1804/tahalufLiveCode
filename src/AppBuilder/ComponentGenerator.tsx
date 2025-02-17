@@ -28,11 +28,7 @@ const screenGenerator = (item, navigation) => {
 
   if (hasChildren) {
     return (
-      <Comp
-        {...componentProps}
-        onPress={() => {
-          console.log('sdsdsd');
-        }}>
+      <Comp {...componentProps}>
         {item?.children?.map(childComp => {
           return screenGenerator(childComp, navigation);
         })}
